@@ -21,5 +21,7 @@ jobs:
           script: |
             cd /home/ubuntu/autoDeploy
             git pull origin main
+            export NVM_DIR=~/.nvm
+            source ~/.nvm/nvm.sh
             npm install 
             pm2 restart main
