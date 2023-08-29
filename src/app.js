@@ -7,7 +7,7 @@ app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 
 app.get('/', (req, res) => {
-    res.json("Hello TKTrade! My Name is Kun Woo Kim")
+    res.json("Hello TKTrade! My Name is Kun Woo Kim! Oh My God")
 });
 
 module.exports = app
